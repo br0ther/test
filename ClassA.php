@@ -10,6 +10,10 @@ class ClassA
 {
     protected $a;
 
+    private $b;
+
+    private $c;
+
     /**
      * @return mixed
      */
@@ -57,10 +61,6 @@ class ClassA
     {
         $this->c = $c;
     }
-
-    private $b;
-
-    private $c;
 
 
 
