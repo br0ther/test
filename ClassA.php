@@ -27,7 +27,7 @@ class ClassA
      */
     public function setA($a)
     {
-        $this->a = $a;
+        $this->a = $a + 10;
     }
 
     /**
@@ -35,7 +35,7 @@ class ClassA
      */
     public function getB()
     {
-        return $this->b;
+        return $this->b % 2;
     }
 
     /**
